@@ -268,4 +268,37 @@ ul hr{
     padding: 7px 12px;
 }
     /* FINE SEZIONE 4 */
+    /* INIZIO SEZIONE 5 */
+.section5{
+    max-width: 630px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.row-section5{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.col-section5{
+    width: calc(100% / 3 - 20px);
+    margin: 10px;
+}
+
+.section5-container{
+    font-size: 10px;
+}
+
+.section5-container img{
+    width: 200px;
+}
+
+.section5-container h3{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+    /* FINE SEZIONE 5 */
     /* FINE MAIN */
