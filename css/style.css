@@ -311,8 +311,12 @@ ul hr{
 }
 
 .section6 h2{
-    font-size: 40px;
+    font-size: 20px;
     margin-bottom: 60px;
+}
+
+.section6 a{
+    font-size: 10px;
 }
     /* FINE SEZIONE 6 */
 
@@ -408,4 +412,30 @@ ul hr{
     background-color: rgb(234, 234, 234);
 }
     /* FINE SEZIONE 7 */
+.section8{
+    max-width: 1270px;
+    margin: 0 auto;
+    background-color: rgb(141, 200, 240)
+}
+
+.row-section8{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 270px;
+    margin-bottom: 100px;
+}
+
+.col-section8 h2{
+    font-size: 20px;
+    color: rgb(56, 2, 2);
+}
+
+.col-section8 button{
+    border: none;
+    padding: 5px 30px;
+    margin-top: 5px;
+}
+    /* INIZIO SEZIONE 8 */
+
+    /* FINE SEZIONE 8 */
     /* FINE MAIN */
