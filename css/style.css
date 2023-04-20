@@ -9,6 +9,13 @@ body{
 }
 
     /* HEADER */
+header{
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+    width: 100%;
+    margin-top: 0;
+}
 .menu{
     max-width: 1270px;
     margin: 10px auto;
@@ -18,9 +25,11 @@ body{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    
 }
 
 .container-menu img{
+    margin-left: 20px;
     height: 100%;
     vertical-align: middle;
 }
@@ -37,6 +46,7 @@ body{
     border: none;
     font-size: 10px;
     margin-left: 8px;
+    margin-right: 20px;
 }
     /* FINE HEADER */
 
@@ -49,14 +59,14 @@ body{
 
 .section1-full-container{
     max-width: 1060px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .row-section1{
     display: flex;
     flex-wrap: wrap;
     width: 72%;
-    margin: 20px auto;
+    margin: 0 auto;
 }
 
 .col-section1{
@@ -415,9 +425,12 @@ ul hr{
 
     /* INIZIO SEZIONE 8 */
 .section8{
+    background-color: rgb(141, 200, 240);
+}
+
+.section8-1{
     max-width: 1270px;
     margin: 0 auto;
-    background-color: rgb(141, 200, 240)
 }
 
 .row-section8{
@@ -489,3 +502,64 @@ details > summary {
   }
     /* FINE SEZIONE 9 */
     /* FINE MAIN */
+
+    /* FOOTER */
+footer{
+    margin: 0 auto;
+    background-color: black;
+}
+
+.footer{
+    max-width: 700px;
+    margin: 0 auto; 
+    color: white;
+}
+
+.row-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-footer{
+    width: calc(100% / 5);
+}
+
+.container-footer{
+    font-size: 8px;
+    margin-bottom: 50px;
+}
+
+.container-footer h2{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.container-footer ul{
+    list-style-type: none;
+}
+
+.container-footer li{
+    margin: 10px;
+    font-size: 9px;
+}
+
+.footer hr{
+    margin-right: 600px;
+    border: 0.6px solid gray;
+    margin-bottom: 40px;
+}
+
+.footer summary{
+    font-size: 10px;
+    color: gray;
+}
+
+.footer details{
+    padding-bottom: 20px;
+}
+
+details p{
+    font-size: 10px;
+}
+    /* FINE FOOTER */
