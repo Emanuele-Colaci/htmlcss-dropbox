@@ -10,7 +10,8 @@ body{
 
     /* HEADER */
 .menu{
-    margin: 10px;
+    max-width: 1270px;
+    margin: 10px auto;
 }
 
 .row-menu{
@@ -132,10 +133,10 @@ body{
 }
 
 .section2-container ul{
-    height: 100vh;
+    min-height: 800px;
     font-size: 12px;
     list-style-type: none;
-    padding: 30px 10px 800px 20px;
+    padding: 30px 10px 0 20px;
     border: 0.2px solid grey;
     border-top: none;
 }
@@ -301,6 +302,8 @@ ul hr{
 }
 
     /* FINE SEZIONE 5 */
+
+    /* INIZIO SEZIONE 6 */
 .section6{
     max-width: 630px;
     margin: 0 auto;
@@ -311,7 +314,98 @@ ul hr{
     font-size: 40px;
     margin-bottom: 60px;
 }
-    /* INIZIO SEZIONE 6 */
-
     /* FINE SEZIONE 6 */
+
+    /* INIZIO SEZIONE 7 */
+.section7{ 
+    max-width: 1270px;
+    margin: 0 auto;
+}
+
+.row-section7{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-section7{
+    width: calc(100% / 3);
+}
+
+.row1-section7{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.col1-section7{
+    width: calc(100% / 2);
+    height: 200px;
+    position: relative;
+}
+
+.section7-container img{
+    filter: invert(1);
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center{
+    padding: 30px;
+}
+
+.center img{
+    width: 200px;
+}
+
+.center hr{
+    margin: 50px 275px 30px 0;  
+}
+
+.center p{
+    font-size: 10px;
+    margin-bottom: 40px;
+}
+
+.green{
+    background-color: rgb(128, 224, 96);
+    border: 9px solid rgb(172, 242, 164);
+}
+
+.brown{
+    background-color: brown;
+}
+
+.heavenly{
+    background-color: rgb(27, 157, 238);
+}
+
+.light-red{
+    background-color: rgb(255, 31, 31)
+}
+
+.red{
+    background-color: rgb(191, 2, 2)
+}
+
+.light-heavenly{
+    background-color: rgb(130, 207, 255);
+}
+
+.blue{
+    background-color: rgb(2, 2, 125)
+}
+
+.yellow{
+    background-color: rgb(225, 225, 3);
+}
+
+.grey{
+    background-color: rgb(234, 234, 234);
+}
+    /* FINE SEZIONE 7 */
     /* FINE MAIN */
