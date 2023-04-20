@@ -412,6 +412,8 @@ ul hr{
     background-color: rgb(234, 234, 234);
 }
     /* FINE SEZIONE 7 */
+
+    /* INIZIO SEZIONE 8 */
 .section8{
     max-width: 1270px;
     margin: 0 auto;
@@ -435,7 +437,55 @@ ul hr{
     padding: 5px 30px;
     margin-top: 5px;
 }
-    /* INIZIO SEZIONE 8 */
-
     /* FINE SEZIONE 8 */
+
+    /* INIZIO SEZIONE 9 */
+.section9{
+    max-width: 630px;
+    margin: 0 auto;
+}
+
+.row-section9{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.col-section9{
+    margin: 10px;
+}
+
+.section9-container h2{
+    margin-bottom: 40px;
+}
+
+.margin-top{
+    margin-top: 20px;
+}
+
+.section9-container details{
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+
+.section9-container hr{
+    border: 0.2px solid black;
+}
+
+.section9-container summary{
+    font-size: 12px;
+}
+
+.arrow{
+    margin-left: 130px;
+}
+
+details > summary {
+    margin-bottom: 15px;
+    cursor: pointer;
+    list-style: none;
+  }
+    /* FINE SEZIONE 9 */
     /* FINE MAIN */
