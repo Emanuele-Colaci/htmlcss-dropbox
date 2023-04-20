@@ -185,7 +185,7 @@ input{
 
 input:checked {
     border: 4px solid blue;
-  }
+}
 
 #section2 h3{
     font-size: 32px;
@@ -393,12 +393,12 @@ ul hr{
     margin-bottom: 100px;
 }
 
-.section6 h2{
+#section6 h2{
     font-size: 20px;
     margin-bottom: 60px;
 }
 
-.section6 a{
+#section6 a{
     font-size: 10px;
 }
     /* FINE SEZIONE 6 */
@@ -428,7 +428,7 @@ ul hr{
 
 .col1-section7{
     width: calc(100% / 2);
-    height: 40vh;
+    height: 35vh;
     position: relative;
 }
 
@@ -565,7 +565,14 @@ ul hr{
 }
 
 .arrow{
-    margin-left: 130px;
+    margin-left: 120px;
+}
+
+.arrow:hover{
+    background-color: rgb(141, 200, 240);
+    border-radius: 50%;
+    padding: 3px 5px;
+    color: goldenrod;
 }
 
 details > summary {
