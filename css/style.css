@@ -412,10 +412,10 @@ ul hr{
 .row-section7{
     width: 100%;
     display: flex;
-    justify-content: space-between;
 }
 
 .col-section7{
+    height: calc(100vw / 3);
     width: calc(100% / 3);
 }
 
@@ -429,7 +429,7 @@ ul hr{
 
 .col1-section7{
     width: 50%;
-    height: 40vh;
+    height: 50%;
     position: relative;
 }
 
@@ -447,7 +447,7 @@ ul hr{
 }
 
 .center img{
-    width: 200px;
+    width: 15vw;
 }
 
 .center hr{
@@ -455,7 +455,7 @@ ul hr{
 }
 
 .center p{
-    font-size: 10px;
+    font-size: 1vw;
     margin-bottom: 40px;
 }
 
