@@ -467,28 +467,63 @@ ul hr{
     background-color: brown;
 }
 
+.brown:hover{
+    background-color: brown;
+    border: 9px solid rgb(91, 10, 10);
+}
+
 .heavenly{
     background-color: rgb(27, 157, 238);
 }
 
+.heavenly:hover{
+    background-color: rgb(27, 157, 238);
+    border: 9px solid rgb(6, 101, 160);
+}
+
 .light-red{
-    background-color: rgb(255, 31, 31)
+    background-color: rgb(255, 31, 31);
+}
+
+.light-red:hover{
+    background-color: rgb(255, 31, 31);
+    border: 9px solid rgb(140, 0, 0);
 }
 
 .red{
-    background-color: rgb(191, 2, 2)
+    background-color: rgb(191, 2, 2);
+}
+
+.red:hover{
+    background-color: rgb(191, 2, 2);
+    border: 9px solid rgb(67, 0, 0);
 }
 
 .light-heavenly{
     background-color: rgb(130, 207, 255);
 }
 
+.light-heavenly:hover{
+    background-color: rgb(130, 207, 255);
+    border: 9px solid rgb(10, 132, 207);
+}
+
 .blue{
-    background-color: rgb(2, 2, 125)
+    background-color: rgb(2, 2, 125);
+}
+
+.blue:hover{
+    background-color: rgb(2, 2, 125);
+    border: 9px solid rgb(0, 0, 36);
 }
 
 .yellow{
     background-color: rgb(225, 225, 3);
+}
+
+.yellow:hover{
+    background-color: rgb(225, 225, 3);
+    border: 9px solid rgb(138, 138, 0);
 }
 
 .grey{
