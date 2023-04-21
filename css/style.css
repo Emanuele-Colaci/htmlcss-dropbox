@@ -405,7 +405,7 @@ ul hr{
 
     /* INIZIO SEZIONE 7 */
 #section7{ 
-    max-width: 1270px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -424,17 +424,18 @@ ul hr{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    height: 100%;
 }
 
 .col1-section7{
-    width: calc(100% / 2);
-    height: 200px;
+    width: 50%;
+    height: 40vh;
     position: relative;
 }
 
 .section7-container img{
     filter: invert(1);
-    width: 100px;
+    width: 10vw;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -597,10 +598,8 @@ ul hr{
 
 .section9-container summary{
     font-size: 12px;
-}
-
-.arrow{
-    margin-left: 120px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .arrow:hover{
