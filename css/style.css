@@ -405,7 +405,7 @@ ul hr{
 
     /* INIZIO SEZIONE 7 */
 #section7{ 
-    max-width: 100vw;
+    max-width: 1270px;
     margin: 0 auto;
 }
 
@@ -428,7 +428,7 @@ ul hr{
 
 .col1-section7{
     width: calc(100% / 2);
-    height: 35vh;
+    height: 200px;
     position: relative;
 }
 
